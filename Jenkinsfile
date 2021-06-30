@@ -20,6 +20,7 @@ spec:
         stage('Main') {
             steps {
                 sh 'hostname'
+                sh 'echo 1'
             }
         }
     }
